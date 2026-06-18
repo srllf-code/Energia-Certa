@@ -39,8 +39,7 @@ Configuração do Python: Abra o arquivo Python e altere a variável PORTA para 
  # Monitor Arduino
 ========================================
 
-  1 - Simular Sobrecarga
-  2 - Definir Novo Limite de Corrente
-  3 - Monitorar Dados do Arduino
-  0 - Sair
+  Simular Sobrecarga, Definir Sobrecarga, Monitorar Dados do Arduino, Sair.
+  
+  digitando: 1, 2, 3 e 0 respectivamente
 ========================================

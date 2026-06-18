@@ -12,20 +12,25 @@ Integração Serial (Python): Menu interativo para alterar o limite de corrente,
 
 # Componentes (Arduino)
 Sensor de Corrente ACS712
+
 Módulo Relé
+
 Leds (Verde, amarelo, vermelho)
 
 # Requisitos do Sistema
+
 No Arduino
 Certifique-se de ter as seguintes bibliotecas instaladas na sua Arduino IDE:
 Wire.h (Nativa)
 LiquidCrystal_I2C.h
 
 # No Python
+
 O script requer a biblioteca pyserial. Instale-a executando:
 pip install pyserial
 
 # Como Executar o Projeto
+
 Montagem do Hardware: Conecte os componentes conforme a tabela de pinagem.
 Upload do Arduino: Carregue o código fornecido para a sua placa Arduino.
 Configuração do Python: Abra o arquivo Python e altere a variável PORTA para a porta COM correta do seu Arduino:
@@ -33,6 +38,7 @@ Configuração do Python: Abra o arquivo Python e altere a variável PORTA para 
 ========================================
  # Monitor Arduino
 ========================================
+
   1 - Simular Sobrecarga
   2 - Definir Novo Limite de Corrente
   3 - Monitorar Dados do Arduino
